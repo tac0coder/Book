@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <input type=text id=pages onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+    <label for=pages id='he'>Enter Number Of Pages</label>
+    <form id=pages_inputs></form>
+     <div id=Storydiv style='margin:auto'></div>
+     <div style='display:none;' id=control><button style='float:left;height:20px;bottom:0;' type="button" id='back'>Back</button><button type="button" id='next' style='float:right;height:20px;bottom:0;'>Next</button></div>
+    <script src="script.js"></script>
+   
+  </body>
+</html>
